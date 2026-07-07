@@ -1,0 +1,131 @@
+Jun 15 00:03:00 db-prod01 sshd[5004]: Connection from 10.20.4.122 port 33635 on db-prod01 port 22
+Jun 15 00:05:25 db-prod01 sshd[5005]: Received disconnect from 10.20.11.168 port 35248:11: disconnected by user
+Jun 15 00:07:41 web-prod01 sshd[5006]: Received disconnect from 10.20.11.53 port 60499:11: disconnected by user
+Jun 15 00:08:39 bastion01 sshd[5007]: Received disconnect from 10.20.11.63 port 37136:11: disconnected by user
+Jun 15 00:11:42 mail-relay01 sshd[5011]: Received disconnect from 10.20.4.146 port 40142:11: disconnected by user
+Jun 15 00:12:18 mail-relay01 sshd[5015]: Received disconnect from 10.21.7.198 port 45087:11: disconnected by user
+Jun 15 00:13:45 bastion01 sshd[5017]: Received disconnect from 172.16.5.248 port 57508:11: disconnected by user
+Jun 15 00:16:11 web-prod02 sshd[5018]: Received disconnect from 10.21.7.29 port 51962:11: disconnected by user
+Jun 15 00:19:15 db-prod01 sshd[5019]: Received disconnect from 172.16.5.175 port 62754:11: disconnected by user
+Jun 15 00:22:12 app-prod03 sshd[5023]: Received disconnect from 10.20.11.21 port 52401:11: disconnected by user
+Jun 15 00:25:05 web-prod01 sshd[5025]: Received disconnect from 10.21.7.219 port 55421:11: disconnected by user
+Jun 15 00:26:45 bastion01 sshd[5026]: Received disconnect from 10.20.4.90 port 50456:11: disconnected by user
+Jun 15 00:27:23 mail-relay01 sshd[5030]: Received disconnect from 10.21.7.19 port 49579:11: disconnected by user
+Jun 15 00:28:38 web-prod01 sshd[5033]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=ubuntu
+Jun 15 00:31:45 app-prod03 sshd[5034]: Received disconnect from 10.21.7.164 port 62215:11: disconnected by user
+Jun 15 00:33:19 mail-relay01 sshd[5038]: Received disconnect from 10.20.11.113 port 38771:11: disconnected by user
+Jun 15 00:34:31 bastion01 sshd[5041]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=backup
+Jun 15 00:35:36 app-prod03 sshd[5045]: Received disconnect from 172.16.5.70 port 43561:11: disconnected by user
+Jun 15 00:36:28 web-prod01 sshd[5047]: Received disconnect from 10.21.7.227 port 47771:11: disconnected by user
+Jun 15 00:36:49 app-prod03 sshd[5049]: Accepted publickey for nreddy from 172.16.5.173 port 45418 ssh2: RSA SHA256:f1f1fee3822dd02d
+Jun 15 00:37:15 mail-relay01 sshd[5053]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=deploy
+Jun 15 00:38:32 web-prod01 sshd[5054]: Received disconnect from 10.21.7.58 port 46251:11: disconnected by user
+Jun 15 00:40:48 db-prod01 sshd[5056]: Received disconnect from 172.16.5.96 port 48507:11: disconnected by user
+Jun 15 00:43:39 app-prod03 sshd[5059]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=backup
+Jun 15 00:43:39 app-prod03 sshd[5059]: Failed password for backup from 185.220.101.47 port 56031 ssh2
+Jun 15 00:44:12 db-prod01 sshd[5063]: Received disconnect from 10.21.7.66 port 40554:11: disconnected by user
+Jun 15 00:46:23 mail-relay01 sshd[5064]: Received disconnect from 10.20.11.82 port 36917:11: disconnected by user
+Jun 15 00:48:24 web-prod02 sshd[5066]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=oracle
+Jun 15 00:51:20 mail-relay01 sshd[5069]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=svc_backup
+Jun 15 00:54:02 web-prod01 sshd[5072]: Received disconnect from 10.20.11.77 port 40454:11: disconnected by user
+Jun 15 00:55:06 web-prod02 sshd[5075]: Received disconnect from 10.21.7.5 port 56200:11: disconnected by user
+Jun 15 00:58:24 db-prod01 sshd[5077]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=admin
+Jun 15 01:01:37 mail-relay01 sshd[5080]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=administrator
+Jun 15 01:03:30 web-prod01 sshd[5084]: Received disconnect from 10.20.4.148 port 42317:11: disconnected by user
+Jun 15 01:05:51 app-prod03 sshd[5088]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=deploy
+Jun 15 01:05:51 app-prod03 sshd[5088]: Failed password for deploy from 185.220.101.47 port 34683 ssh2
+Jun 15 01:07:48 app-prod03 sshd[5091]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=root
+Jun 15 01:09:05 app-prod03 sshd[5095]: Received disconnect from 10.20.4.149 port 53625:11: disconnected by user
+Jun 15 01:09:57 web-prod02 sshd[5096]: Received disconnect from 10.20.11.209 port 51443:11: disconnected by user
+Jun 15 01:12:59 web-prod01 sshd[5099]: Received disconnect from 10.20.11.32 port 51286:11: disconnected by user
+Jun 15 01:16:10 bastion01 sshd[5103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=svc_backup
+Jun 15 01:16:26 bastion01 sshd[5105]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=ubuntu
+Jun 15 01:17:08 db-prod01 sshd[5109]: Received disconnect from 172.16.5.111 port 43006:11: disconnected by user
+Jun 15 01:19:11 bastion01 sshd[5110]: Received disconnect from 10.20.4.244 port 57993:11: disconnected by user
+Jun 15 01:20:22 mail-relay01 sshd[5112]: Received disconnect from 10.20.11.69 port 54640:11: disconnected by user
+Jun 15 01:21:22 web-prod02 sshd[5113]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=oracle
+Jun 15 01:21:22 web-prod02 sshd[5113]: Failed password for oracle from 185.220.101.47 port 35459 ssh2
+Jun 15 01:24:35 web-prod01 sshd[5115]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=ubuntu
+Jun 15 01:27:02 db-prod01 sshd[5119]: Received disconnect from 10.20.4.61 port 42440:11: disconnected by user
+Jun 15 01:29:15 mail-relay01 sshd[5122]: Received disconnect from 10.22.9.20 port 55524:11: disconnected by user
+Jun 15 01:29:42 db-prod01 sshd[5124]: Received disconnect from 172.16.5.171 port 59342:11: disconnected by user
+Jun 15 01:32:19 app-prod03 sshd[5126]: Received disconnect from 10.20.4.141 port 40366:11: disconnected by user
+Jun 15 01:33:37 db-prod01 sshd[5128]: Received disconnect from 10.20.11.20 port 34954:11: disconnected by user
+Jun 15 01:34:23 db-prod01 sshd[5130]: Received disconnect from 172.16.5.193 port 60008:11: disconnected by user
+Jun 15 01:36:34 app-prod03 sshd[5133]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=root
+Jun 15 01:37:23 mail-relay01 sshd[5136]: Connection from 10.22.9.243 port 41920 on mail-relay01 port 22
+Jun 15 01:39:36 app-prod03 sshd[5140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=root
+Jun 15 01:42:41 mail-relay01 sshd[5144]: pam_unix(sshd:session): session closed for user dwilson
+Jun 15 01:45:11 web-prod01 sshd[5147]: Received disconnect from 10.20.4.60 port 55095:11: disconnected by user
+Jun 15 01:47:49 mail-relay01 sshd[5148]: Received disconnect from 10.21.7.149 port 34318:11: disconnected by user
+Jun 15 01:50:36 app-prod03 sshd[5150]: Accepted publickey for tverma from 10.22.9.236 port 42114 ssh2: RSA SHA256:c341bff47f5e9721
+Jun 15 01:52:12 db-prod01 sshd[5153]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=test
+Jun 15 01:52:12 db-prod01 sshd[5153]: Failed password for test from 185.220.101.47 port 58314 ssh2
+Jun 15 01:54:20 bastion01 sshd[5157]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=admin
+Jun 15 01:57:11 app-prod03 sshd[5161]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=admin
+Jun 15 01:57:11 app-prod03 sshd[5161]: Failed password for admin from 185.220.101.47 port 44854 ssh2
+Jun 15 02:00:30 mail-relay01 sshd[5165]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=deploy
+Jun 15 02:02:54 db-prod01 sshd[5167]: Received disconnect from 172.16.5.35 port 63397:11: disconnected by user
+Jun 15 02:04:58 app-prod03 sshd[5170]: Received disconnect from 10.22.9.33 port 33945:11: disconnected by user
+Jun 15 02:07:33 mail-relay01 sshd[5172]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=administrator
+Jun 15 02:07:33 mail-relay01 sshd[5172]: Failed password for administrator from 185.220.101.47 port 33448 ssh2
+Jun 15 02:09:42 web-prod01 sshd[5176]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=oracle
+Jun 15 02:10:37 app-prod03 sshd[5177]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=root
+Jun 15 02:12:53 app-prod03 sshd[5179]: Received disconnect from 10.21.7.132 port 56114:11: disconnected by user
+Jun 15 02:15:03 app-prod03 sshd[5182]: Received disconnect from 10.22.9.122 port 40986:11: disconnected by user
+Jun 15 02:16:24 bastion01 sshd[5186]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=administrator
+Jun 15 02:16:24 bastion01 sshd[5186]: Failed password for administrator from 185.220.101.47 port 63207 ssh2
+Jun 15 02:17:42 web-prod01 sshd[5188]: Received disconnect from 10.21.7.199 port 58886:11: disconnected by user
+Jun 15 02:20:40 db-prod01 sshd[5192]: Received disconnect from 172.16.5.70 port 59887:11: disconnected by user
+Jun 15 02:22:05 db-prod01 sshd[5193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=postgres
+Jun 15 02:24:33 web-prod02 sshd[5197]: Received disconnect from 10.22.9.139 port 48870:11: disconnected by user
+Jun 15 02:26:52 db-prod01 sshd[5200]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=backup
+Jun 15 02:29:47 app-prod03 sshd[5204]: Received disconnect from 10.21.7.224 port 39181:11: disconnected by user
+Jun 15 02:31:03 bastion01 sshd[5206]: Accepted publickey for svc_backup from 10.20.11.221 port 58413 ssh2: RSA SHA256:0f180964c9c9fb7b
+Jun 15 02:32:28 web-prod01 sshd[5210]: Received disconnect from 10.20.11.106 port 61538:11: disconnected by user
+Jun 15 02:34:35 web-prod01 sshd[5212]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=deploy
+Jun 15 02:35:09 db-prod01 sshd[5215]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=svc_backup
+Jun 15 02:38:26 db-prod01 sshd[5216]: Received disconnect from 172.16.5.99 port 43376:11: disconnected by user
+Jun 15 02:39:54 bastion01 sshd[5220]: pam_unix(sshd:session): session closed for user jsmith
+Jun 15 02:41:09 web-prod02 sshd[5221]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=postgres
+Jun 15 02:42:33 app-prod03 sshd[5222]: Received disconnect from 10.20.4.196 port 53766:11: disconnected by user
+Jun 15 02:44:13 app-prod03 sshd[5223]: Received disconnect from 10.20.11.179 port 42812:11: disconnected by user
+Jun 15 02:45:49 web-prod01 sshd[5224]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=test
+Jun 15 02:48:22 db-prod01 sshd[5227]: Received disconnect from 10.21.7.112 port 37770:11: disconnected by user
+Jun 15 02:48:57 bastion01 sshd[5229]: Received disconnect from 10.22.9.146 port 55341:11: disconnected by user
+Jun 15 02:49:47 web-prod02 sshd[5231]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=administrator
+Jun 15 02:49:47 web-prod02 sshd[5231]: Failed password for administrator from 185.220.101.47 port 61535 ssh2
+Jun 15 02:50:40 bastion01 sshd[5235]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=oracle
+Jun 15 02:51:54 web-prod02 sshd[5237]: Received disconnect from 10.22.9.165 port 41322:11: disconnected by user
+Jun 15 02:53:47 db-prod01 sshd[5241]: Connection from 10.20.4.232 port 59366 on db-prod01 port 22
+Jun 15 02:56:59 db-prod01 sshd[5245]: Received disconnect from 172.16.5.42 port 35420:11: disconnected by user
+Jun 15 02:57:53 db-prod01 sshd[5249]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=svc_backup
+Jun 15 02:57:53 db-prod01 sshd[5249]: Failed password for svc_backup from 185.220.101.47 port 46903 ssh2
+Jun 15 03:01:08 app-prod03 sshd[5252]: Received disconnect from 10.21.7.52 port 45605:11: disconnected by user
+Jun 15 03:02:17 web-prod01 sshd[5256]: Accepted publickey for lchen from 10.22.9.148 port 44762 ssh2: RSA SHA256:39e94e345a318e63
+Jun 15 03:02:48 web-prod02 sshd[5259]: Received disconnect from 10.20.11.160 port 41212:11: disconnected by user
+Jun 15 03:04:49 mail-relay01 sshd[5261]: Received disconnect from 10.20.4.233 port 53560:11: disconnected by user
+Jun 15 03:06:48 db-prod01 sshd[5262]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=deploy
+Jun 15 03:06:48 db-prod01 sshd[5262]: Failed password for deploy from 185.220.101.47 port 44955 ssh2
+Jun 15 03:08:27 web-prod01 sshd[5264]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=postgres
+Jun 15 03:08:27 web-prod01 sshd[5264]: Failed password for postgres from 185.220.101.47 port 46615 ssh2
+Jun 15 03:11:00 web-prod02 sshd[5266]: Received disconnect from 10.20.11.203 port 50675:11: disconnected by user
+Jun 15 03:13:14 bastion01 sshd[5269]: Received disconnect from 172.16.5.235 port 41930:11: disconnected by user
+Jun 15 03:15:15 db-prod01 sshd[5271]: Received disconnect from 10.22.9.249 port 59427:11: disconnected by user
+Jun 15 03:15:45 mail-relay01 sshd[5274]: Received disconnect from 10.21.7.207 port 36773:11: disconnected by user
+Jun 15 03:16:52 web-prod01 sshd[5278]: Connection from 10.20.11.195 port 40392 on web-prod01 port 22
+Jun 15 03:18:54 bastion01 sshd[5282]: Received disconnect from 10.21.7.25 port 58909:11: disconnected by user
+Jun 15 03:20:48 web-prod01 sshd[5286]: Received disconnect from 10.21.7.139 port 37049:11: disconnected by user
+Jun 15 03:23:32 db-prod01 sshd[5290]: Received disconnect from 10.21.7.151 port 45485:11: disconnected by user
+Jun 15 03:26:45 web-prod01 sshd[5293]: pam_unix(sshd:session): session closed for user lchen
+Jun 15 03:27:05 web-prod01 sshd[5297]: Received disconnect from 172.16.5.228 port 63905:11: disconnected by user
+Jun 15 03:29:47 bastion01 sshd[5300]: Received disconnect from 10.20.11.167 port 35071:11: disconnected by user
+Jun 15 03:31:39 mail-relay01 sshd[5304]: Received disconnect from 10.21.7.168 port 46379:11: disconnected by user
+Jun 15 03:33:56 web-prod02 sshd[5305]: Received disconnect from 10.20.4.244 port 34219:11: disconnected by user
+Jun 15 03:34:12 app-prod03 sshd[5308]: Received disconnect from 10.20.4.26 port 40693:11: disconnected by user
+Jun 15 03:35:57 app-prod03 sshd[5310]: Accepted publickey for svc_sql from 10.21.7.173 port 57351 ssh2: RSA SHA256:523584739e5d1df9
+Jun 15 03:37:28 bastion01 sshd[5313]: Received disconnect from 10.21.7.17 port 46046:11: disconnected by user
+Jun 15 03:39:22 web-prod02 sshd[5316]: Received disconnect from 10.20.4.244 port 60788:11: disconnected by user
+Jun 15 03:41:24 web-prod01 sshd[5320]: Connection from 10.20.11.166 port 53954 on web-prod01 port 22
+Jun 15 03:43:56 web-prod01 sshd[5321]: Received disconnect from 10.21.7.64 port 37126:11: disconnected by user
+Jun 15 03:46:30 web-prod01 sshd[5323]: Received disconnect from 172.16.5.55 port 52214:11: disconnected by user

